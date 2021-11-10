@@ -1,0 +1,218 @@
+@media (max-width:1025px) {
+   /* intro */
+   .intro {
+      margin: 75px !important;
+   }
+   /* nav */
+   .nav__inner {
+      width: 300px !important;
+   }
+   /* header */
+   .header__number::after {
+      position: inherit !important;
+   }
+   /*  */
+   .services__img {
+      padding-bottom: 40px !important;
+   }
+   .services__item {
+      max-height: 400px;
+      padding: 40px 30px;
+   }
+   .services__text {
+      line-height: 1.5;
+   }
+   .projects__text p {
+      line-height: 1;
+   }
+   .projects__img img {
+      width: 90% !important;
+      object-fit: cover !important;
+   }
+   /* section */
+   .section {
+      padding-top: 60px!important;
+   }
+   /* cards */
+   .cards {
+      margin-bottom: 30px !important;
+   }
+   /*  */
+   .footer--btn1 {
+      padding: 15px;
+   }
+   /*  */
+   .about--btn {
+      display: none;
+   }
+   /*  */
+   .certificate__item {
+      padding: 25px 25px;
+   }
+   .certificates__text {
+      font-size: 15px;
+
+   }
+}
+
+@media (max-width:769px) {
+   .nav__inner {
+      position: fixed;
+      z-index: 1000;
+      top: 0;
+      left: -300px;
+   }
+   .nav__toggle {
+      display: block !important;
+   }
+   /* projects */
+   /*  */
+   .partners__item {
+      width: 180px;
+      height: 115px;
+   }
+   /*  */
+   .projects {
+      align-items: flex-start;
+   }
+   .projects__img img {
+      width: 90%!important;
+      object-fit: contain!important;
+   }
+   .projects__text {
+      margin-bottom: 15px !important;
+   }
+   .projects__text p {
+      line-height: 1.3!important;
+   }
+   .projects__title {
+      margin-bottom: 15px !important;
+      font-size: 22px !important;
+   }
+   .intro__btn {
+      margin-bottom: 0;
+   }
+   .intro {
+      margin-top: auto !important;
+      margin-bottom: auto !important;
+   }
+   /* maps */
+   .maps__blog {
+      margin-left: 420px !important;
+      padding-bottom: 15px !important;
+   }
+   .maps__content {
+      width: 300px !important;
+      height: 354px !important;
+      padding: 25px !important;
+   }
+   .maps__title {
+      font-size: 22px !important;
+      margin-bottom: 10px !important;
+   }
+   .maps__location {
+      height: 350px !important;
+   }
+   /* cards */
+   .card__title {
+      font-size: 14px;
+      width: 160px;
+      height: 60px;
+   }
+   .cards__subtitle {
+      font-size: 17px;
+      margin-bottom: 5px;
+   }
+   .card__text {
+      margin-bottom: 5px;
+      font-size: 14px;
+   }
+   /*  */
+   .footer--btn1 {
+      margin-left: 0;
+   }
+   .footer--btn::after {
+      height: 0;
+   }
+   .footer__input {
+      margin-bottom: 20px;
+   }
+   .about__nav {
+      display: none;
+   }
+   /*  */
+   .works__blog {
+      top: 25px;
+      left: 0;
+      padding: 20px;
+      width: 350px;
+      height: 420px;
+   }
+
+   .works__img img {
+      width: 60%;
+   }
+   .works__title {
+      margin-bottom: 10px;
+   }
+   .works__text {
+      padding-right: 0;
+      font-size: 12px ;
+   }
+}
+
+@media (max-width:426px) {
+   .intro {
+      margin: 0 auto;
+      width: 400px;
+   }
+   .intro__text {
+      font-size: 20px;
+   }
+   .intro__subtext {
+      width: 100%;
+      font-size: 14px;
+   }
+   .intro__btn {
+      background: #fff;
+      border: transparent;
+   }
+   .maps__inner {
+      flex-direction: column-reverse;
+   }
+   .maps__blog {
+      margin-left: 0 !important;
+      margin-bottom: 20px;
+      margin: 0 10px !important;
+   }
+   .maps__content {
+      position: static;
+      width: 100% !important;
+      margin-bottom: 20px;
+   }
+   /* projects */
+   .projects {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+   .projects__img {
+      margin-bottom: 20px;
+      justify-content: center;
+   }
+   /* nav */
+   .nav-link span {
+      font-size: 0;
+   }
+   /* footer */
+   .footer--btn {
+      width: 100%;
+      margin-bottom: 20px !important;
+   }
+   .footer--btn1 {
+      width: 100%;
+   }
+   .footer__title {
+      padding: 20px;
+   }
+}
